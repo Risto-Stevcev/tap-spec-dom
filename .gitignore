@@ -1,0 +1,4 @@
+dist
+actual.png
+.cache
+node_modules

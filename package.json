@@ -1,0 +1,42 @@
+{
+  "name": "tap-spec-dom",
+  "version": "0.1.0",
+  "description": "TAP output formatted for the DOM",
+  "main": "index.js",
+  "scripts": {
+    "build:test": "parcel build test.js",
+    "selenium:install": "selenium-standalone install",
+    "selenium:start": "selenium-standalone start",
+    "selenium": "npm run selenium:install && npm run selenium:start",
+    "server": "http-server .",
+    "test:diff": "./test.sh",
+    "test": "npm run build:test && npm run test:diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Risto-Stevcev/tap-spec-dom.git"
+  },
+  "keywords": [
+    "tape",
+    "reporter",
+    "browser",
+    "dom"
+  ],
+  "author": "Risto-Stevcev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Risto-Stevcev/tap-spec-dom/issues"
+  },
+  "homepage": "https://github.com/Risto-Stevcev/tap-spec-dom#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "parcel-bundler": "^1.9.7",
+    "selenium-standalone": "^6.15.1",
+    "webdriverio": "^4.13.2"
+  },
+  "dependencies": {
+    "declaredom": "^0.1.0",
+    "morphdom": "^2.3.3",
+    "tape": "^4.9.1"
+  }
+}

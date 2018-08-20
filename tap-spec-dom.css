@@ -1,0 +1,26 @@
+.tap-tests {
+  font-size: 16px;
+}
+
+.tap-tests h2 {
+  font-size: 22px;
+  margin: 0.5em;
+}
+
+.tap-tests ol {
+  margin: 0;
+  padding-left: 2em;
+}
+
+.tap-tests .tap-success {
+  background-color: lightgreen;
+}
+
+.tap-tests .tap-failure {
+  background-color: #ff6666;
+}
+
+.tap-tests .tap-success,
+.tap-tests .tap-failure {
+  padding-left: 1em;
+}

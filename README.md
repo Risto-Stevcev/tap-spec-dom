@@ -46,3 +46,8 @@ npm test
 ```
 
 The diff might fail because your resolution is different (TODO: set resolution on test), but it should look similar
+
+
+## Screenshot
+
+<img src="https://raw.githubusercontent.com/Risto-Stevcev/tap-spec-dom/master/expected.png" width="800"/>
